@@ -1,0 +1,109 @@
+/* * -----------------------------------   FADE  ------------------------------------ */
+
+@keyframes fadeInAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  height: 100%;
+  animation-name: fadeInAnim;
+}
+
+@keyframes fadeOutAnim {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fadeOut {
+  height: 100%;
+  animation-name: fadeOutAnim;
+}
+/* * -------------------------------------------------------------------------------- */
+/* * ----------------------------------   SCALE  ------------------------------------ */
+@keyframes scaleInAnim {
+  0% {
+    scale: 0;
+  }
+  100% {
+    scale: 1;
+  }
+}
+.scaleIn {
+  height: 100%;
+  animation-name: scaleInAnim;
+}
+
+@keyframes scaleOutAnim {
+  0% {
+    scale: 1;
+  }
+  100% {
+    scale: 0;
+  }
+}
+.scaleOut {
+  height: 100%;
+  animation-name: scaleOutAnim;
+}
+/* * -------------------------------------------------------------------------------- */
+/* * --------------------------------  SLIDE LEFT  ---------------------------------- */
+@keyframes slideLeftInAnim {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.slideLeftIn {
+  height: 100%;
+  animation-name: slideLeftInAnim;
+}
+
+@keyframes slideLeftOutAnim {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.slideLeftOut {
+  height: 100%;
+  animation-name: slideLeftOutAnim;
+}
+/* * -------------------------------------------------------------------------------- */
+/* * ----------------------------------   SLIDE RIGHT  ------------------------------------ */
+@keyframes slideRightInAnim {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+.slideRightIn {
+  height: 100%;
+  animation-name: slideRightInAnim;
+}
+
+@keyframes slideRightOutAnim {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+.slideRightOut {
+  height: 100%;
+  animation-name: slideRightOutAnim;
+}
+/* * -------------------------------------------------------------------------------- */

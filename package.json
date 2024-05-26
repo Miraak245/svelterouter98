@@ -1,0 +1,29 @@
+{
+  "name": "svelterouter98",
+  "version": "1.0.2",
+  "author": "Reza Rastegar",
+  "license": "ISC",
+  "description": "Routing system for SvelteJS",
+  "keywords": [
+    "svelte routing",
+    "svelte",
+    "sveltejs",
+    "route",
+    "router",
+    "routing",
+    "svelte route",
+    "svelte router",
+    "typescript"
+  ],
+  "repository": "Reza-245/SvelteRouter98",
+  "main": "./src/index.js",
+  "types": "./types/index.d.ts",
+  "svelte": "./src/index.js",
+  "exports": {
+    ".": {
+      "main": "./src/index.js",
+      "types": "./types/index.d.ts",
+      "svelte": "./src/index.js"
+    }
+  }
+}
